@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    /* margin-left: 10%; */
+}
+
+.header img {
+    height: 80%;
+}
+
+.header-text {
+    color: rgb(99, 99, 209);
+}
