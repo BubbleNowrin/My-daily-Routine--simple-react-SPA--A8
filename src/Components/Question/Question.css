@@ -14,3 +14,20 @@
     border-radius: 8px;
     padding: 20px;
 }
+
+@media only screen and (max-width:576px) {
+    .question {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+    }
+
+    .q-card {
+        height: 80vh;
+        width: 67%;
+        border: 2px solid red;
+        border-radius: 8px;
+        padding: 20px;
+        margin-left: 20px;
+    }
+}

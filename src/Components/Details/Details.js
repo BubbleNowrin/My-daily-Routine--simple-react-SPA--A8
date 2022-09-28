@@ -25,8 +25,8 @@ const Details = (props) => {
             <div className='break-time'>
                 <h3>Break Time: {breakTime} minutes</h3>
             </div>
-            <div className="btn-activity">
-                <button onClick={notify}>Activity Completed</button>
+            <div>
+                <button className="btn-activity" onClick={notify}>Activity Completed</button>
                 <ToastContainer />
             </div>
         </div>

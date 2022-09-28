@@ -33,3 +33,28 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+
+@media only screen and (max-width:576px) {
+    .activity-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .activities-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* margin-top: 100px; */
+    }
+
+    .side-bar {
+        margin-top: 40px;
+        width: 67%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.685);
+    }
+
+    .question-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
