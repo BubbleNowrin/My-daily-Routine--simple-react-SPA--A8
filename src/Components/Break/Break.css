@@ -5,14 +5,14 @@
     padding: 10px;
 }
 
-button {
+.btn-container button {
     border: none;
     border-radius: 50%;
     padding: 10px;
     margin-left: 5px;
 }
 
-button:hover {
+.btn-container button:hover {
     color: White;
     background-color: black;
 }
