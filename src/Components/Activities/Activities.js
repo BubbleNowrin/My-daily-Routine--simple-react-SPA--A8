@@ -9,7 +9,11 @@ const Activities = () => {
 
     const [activities, setActivities] = useState([]);
     const [singleActivity, setSingleActivity] = useState([]);
-    const [breakTime, setBreakTime] = useState([]);
+    const getTimeFromLS = () => {
+        const stored = localStorage.getItem('break-time');
+        return stored;
+    }
+    const [breakTime, setBreakTime] = useState(getTimeFromLS());
 
 
     useEffect(() => {
@@ -23,8 +27,13 @@ const Activities = () => {
         setSingleActivity(newActivity);
     }
     const addBreakTime = (time) => {
+
+        localStorage.setItem('break-time', time);
         setBreakTime(time);
+
     }
+
+
 
     return (
 

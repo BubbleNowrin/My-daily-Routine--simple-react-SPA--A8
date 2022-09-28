@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+
 import "./Details.css"
 
 const Details = (props) => {
+
 
     const singleActivity = props.singleActivity;
     const breakTime = props.breakTime;
