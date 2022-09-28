@@ -12,7 +12,7 @@ const Activity = (props) => {
             <p><small>{about}</small></p>
             <h4>Duration: {time} minutes</h4>
 
-            <button className='btn'>
+            <button onClick={() => props.addToList(props.activity)} className='btn'>
                 <p className='btn-text'>Add to List</p>
             </button>
 

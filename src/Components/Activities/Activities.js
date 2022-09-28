@@ -7,13 +7,20 @@ import './Activities.css'
 
 const Activities = () => {
 
-    const [activities, setActivities] = useState([])
+    const [activities, setActivities] = useState([]);
+    const [singleActivity, setSingleActivity] = useState([]);
 
     useEffect(() => {
         fetch('./products.json')
             .then(res => res.json())
             .then(data => setActivities(data))
     }, [])
+
+    const addToList = (activity) => {
+        // console.log(activity);
+        const newActivity = [...singleActivity, activity];
+        setSingleActivity(newActivity);
+    }
     return (
 
         <div className='activity-container'>
@@ -22,7 +29,7 @@ const Activities = () => {
                 <div className='activities-section'>
 
                     {
-                        activities.map(activity => <Activity key={activity._id} activity={activity}></Activity>)
+                        activities.map(activity => <Activity addToList={addToList} key={activity._id} activity={activity}></Activity>)
                     }
 
                 </div>
@@ -35,7 +42,7 @@ const Activities = () => {
                     <h3>Add a Break</h3>
                     <Break></Break>
                     <h3>Activity Details</h3>
-                    <Details></Details>
+                    <Details singleActivity={singleActivity}></Details>
                 </div>
 
             </div>
