@@ -18,13 +18,13 @@
 }
 
 .side-bar {
-    /* position: relative; */
+    position: relative;
     color: white;
     margin-left: 15%;
     background-color: rgba(0, 0, 0, 0.685);
 }
 
-/* .side-cart {
+.side-cart {
     position: sticky;
     top: 0;
-} */
+}
