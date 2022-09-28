@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
+import Info from '../Personal-info/Info';
 import './Activities.css'
 
 const Activities = () => {
@@ -25,8 +26,9 @@ const Activities = () => {
                 </div>
             </div>
 
-            <div className='activity-list'>
-                <h3 className='activity-cart'>Activity List</h3>
+            <div className='side-bar'>
+                <h3 className='side-cart'>Personal Info</h3>
+                <Info></Info>
             </div>
         </div>
 

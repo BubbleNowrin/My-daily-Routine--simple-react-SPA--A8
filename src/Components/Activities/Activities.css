@@ -17,14 +17,14 @@
     margin-left: 50px;
 }
 
-.activity-list {
-    position: relative;
+.side-bar {
+    /* position: relative; */
     color: white;
     margin-left: 15%;
     background-color: rgba(0, 0, 0, 0.685);
 }
 
-.activity-cart {
+/* .side-cart {
     position: sticky;
     top: 0;
-}
+} */
