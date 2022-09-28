@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "63345aa5d1cc2d2a271fbb48",
+        "picture": "https://media.istockphoto.com/photos/young-asian-woman-exercising-in-the-park-picture-id1360468191?b=1&k=20&m=1360468191&s=170667a&w=0&h=aIUqrqgoLA32LDqvxglHTCf6Fc3Xd5YCnSUEE2luBkg=",
+        "name": "Morning Walk",
+        "about": "Walking is a great way to improve or maintain your overall health. Just 30 minutes every day to maintain good health.",
+        "time": "30"
+    },
+    {
+        "_id": "63345aa592d1c499ada39769",
+        "picture": "https://media.istockphoto.com/photos/side-of-asian-young-beautiful-muslim-woman-pray-with-beads-and-read-picture-id1207998187?b=1&k=20&m=1207998187&s=170667a&w=0&h=Q82kZ-MSF-6f1G-a26Qcbng-xq-fIN4GATvNZstXvfI=",
+        "name": "Prayer",
+        "about": "Prayer time. Don't miss your salat. Start your day with a fresh mind.",
+        "time": "20"
+    },
+    {
+        "_id": "63345aa58f1efb0094a5bed2",
+        "picture": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnJlYWtmYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Breakfast",
+        "about": "Breakfast time. Need to prepare something to eat .Don't miss your Breakfast.",
+        "time": "40"
+    },
+    {
+        "_id": "63345aa5b85032cc58793587",
+        "picture": "https://media.istockphoto.com/photos/smart-and-creative-student-planning-and-writing-notes-in-her-books-at-picture-id1413734619?b=1&k=20&m=1413734619&s=170667a&w=0&h=Pa6ntwHQbMWM0vH8TNtTE5CjiQ8IsH-XPjq6HMcRqn8=",
+        "name": "Quick Revision",
+        "about": "A quick revision to yesterday's Lecture so that it helps to understand better",
+        "time": "60"
+    },
+    {
+        "_id": "63345aa549cf81f60055b58f",
+        "picture": "https://media.istockphoto.com/photos/multiethnic-group-of-students-looking-happy-talking-at-the-school-and-picture-id1349297995?b=1&k=20&m=1349297995&s=170667a&w=0&h=zX1jsZ3BhK2I_kM5Fo6QWoemCADypbuvePHm1Ux4NO4=",
+        "name": "Go to University",
+        "about": "Time to attend Today's Lecture. 3 classes today.",
+        "time": "90"
+    },
+    {
+        "_id": "63345aa5455d0540f118f3e8",
+        "picture": "https://media.istockphoto.com/photos/technology-makes-my-life-so-much-easier-picture-id1159809871?b=1&k=20&m=1159809871&s=170667a&w=0&h=9iogHEXsdslVr63sTgLdXRB633yaPuGw0my5azcf2xs=",
+        "name": "Study Time",
+        "about": "It's time to study. Go through all the lectures,complete homework and practice",
+        "time": "90"
+    }
+]
