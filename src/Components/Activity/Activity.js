@@ -6,12 +6,15 @@ const Activity = (props) => {
     const { picture, name, about, time } = props.activity;
     return (
         <div className='activity'>
-            {/* <h2>{picture}</h2> */}
-            <h3 className='activity-name'>{name}</h3>
-            <p>{about}</p>
-            <h4>{time}</h4>
+            <img src={picture} alt="" />
+            <h2 className='activity-name'>{name}</h2>
+
+            <p><small>{about}</small></p>
+            <h4>Duration: {time} minutes</h4>
+
             <button className='btn'>
-                <p className='btn-text'>Add to List</p></button>
+                <p className='btn-text'>Add to List</p>
+            </button>
 
         </div>
     );

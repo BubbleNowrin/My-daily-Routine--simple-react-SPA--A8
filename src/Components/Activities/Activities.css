@@ -1,4 +1,10 @@
+.activity-title {
+    padding-top: 50px;
+    margin-bottom: -30px;
+}
+
 .activity-container {
+
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
@@ -9,4 +15,16 @@
     gap: 50px;
     margin-top: 100px;
     margin-left: 50px;
+}
+
+.activity-list {
+    position: relative;
+    color: white;
+    margin-left: 15%;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+.activity-cart {
+    position: sticky;
+    top: 0;
 }

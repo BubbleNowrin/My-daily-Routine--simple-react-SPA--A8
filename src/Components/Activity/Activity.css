@@ -1,6 +1,7 @@
 .activity {
-    height: 510px;
-    width: 300px;
+    /* height: 510px; */
+    height: 100vh;
+    width: 100%;
     border: 2px solid red;
     border-radius: 8px;
     position: relative;
@@ -10,16 +11,16 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 21px;
-    margin-left: 7px;
+    /* font-size: 21px; */
+    /* margin-left: 7px; */
 }
 
-/* .product img {
-    height: 286px;
-    width: 286px;
+.activity img {
+    height: 50%;
+    width: 95%;
     border-radius: 8px;
     margin: 7px;
-} */
+}
 
 /* .product-info {
     margin-left: 8px;
@@ -38,6 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .btn-text {

@@ -12,19 +12,24 @@ const Activities = () => {
             .then(data => setActivities(data))
     }, [])
     return (
+
         <div className='activity-container'>
-            {/* <div><h4>Select Activities for Today</h4></div> */}
-            <div className='activities-section'>
+            <div>
+                <h3 className='activity-title'>Select Activities for Today</h3>
+                <div className='activities-section'>
 
-                {
-                    activities.map(activity => <Activity key={activity._id} activity={activity}></Activity>)
-                }
+                    {
+                        activities.map(activity => <Activity key={activity._id} activity={activity}></Activity>)
+                    }
 
+                </div>
             </div>
+
             <div className='activity-list'>
-                <h4>List</h4>
+                <h3 className='activity-cart'>Activity List</h3>
             </div>
         </div>
+
 
     );
 };
