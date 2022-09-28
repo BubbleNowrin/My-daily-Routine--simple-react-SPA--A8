@@ -1,0 +1,18 @@
+.btn-container {
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 5px 3px 10px white;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+button:hover {
+    color: White;
+    background-color: black;
+}

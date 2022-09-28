@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
+import Break from '../Break/Break';
 import Info from '../Personal-info/Info';
 import './Activities.css'
 
@@ -27,8 +28,13 @@ const Activities = () => {
             </div>
 
             <div className='side-bar'>
-                <h3 className='side-cart'>Personal Info</h3>
-                <Info></Info>
+                <div className='side-cart'>
+                    <h3>Personal Info</h3>
+                    <Info></Info>
+                    <h3>Add a Break</h3>
+                    <Break></Break>
+                </div>
+
             </div>
         </div>
 
