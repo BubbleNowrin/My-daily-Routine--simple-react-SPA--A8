@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Details.css"
 
 const Details = (props) => {
+
     const singleActivity = props.singleActivity;
+    const breakTime = props.breakTime;
+    // console.log(breakTime);
 
     let total = 0;
     for (const act of singleActivity) {
@@ -16,7 +19,7 @@ const Details = (props) => {
                 <h3>Activity Time: {total} minutes</h3>
             </div>
             <div className='break-time'>
-                <h3>Break Time: 0</h3>
+                <h3>Break Time: {breakTime} minutes</h3>
             </div>
         </div>
     );

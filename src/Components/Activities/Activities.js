@@ -9,6 +9,8 @@ const Activities = () => {
 
     const [activities, setActivities] = useState([]);
     const [singleActivity, setSingleActivity] = useState([]);
+    const [breakTime, setBreakTime] = useState([]);
+
 
     useEffect(() => {
         fetch('./products.json')
@@ -17,10 +19,13 @@ const Activities = () => {
     }, [])
 
     const addToList = (activity) => {
-        // console.log(activity);
         const newActivity = [...singleActivity, activity];
         setSingleActivity(newActivity);
     }
+    const addBreakTime = (time) => {
+        setBreakTime(time);
+    }
+
     return (
 
         <div className='activity-container'>
@@ -40,9 +45,9 @@ const Activities = () => {
                     <h3>Personal Info</h3>
                     <Info></Info>
                     <h3>Add a Break</h3>
-                    <Break></Break>
+                    <Break addBreakTime={addBreakTime}></Break>
                     <h3>Activity Details</h3>
-                    <Details singleActivity={singleActivity}></Details>
+                    <Details breakTime={breakTime} singleActivity={singleActivity}></Details>
                 </div>
 
             </div>
