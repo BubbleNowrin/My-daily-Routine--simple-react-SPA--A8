@@ -13,8 +13,9 @@ const Activities = () => {
     }, [])
     return (
         <div className='activity-container'>
-            <div className='activities-Section'>
-                <h4>Select Activities for Today</h4>
+            {/* <div><h4>Select Activities for Today</h4></div> */}
+            <div className='activities-section'>
+
                 {
                     activities.map(activity => <Activity key={activity._id} activity={activity}></Activity>)
                 }
